@@ -8,13 +8,13 @@ from discord.utils import get
 import time
 
 import random
-TOKEN = 'OTQ0MzUxMTA3NzY4MDE2OTA2.YhAVgQ.DZ_ggXMMBAqS_Chb01ZpfNDmSIY'
+TOKEN = 'token'
 client = commands.Bot(command_prefix='.', help_command=None)
 SendN = discord.client
 Activer = False
 @client.event
 async def on_ready():
-    print('zizi')
+    print(':)')
 Test = 1
 Talk = 1        
 Journal = 1
@@ -180,5 +180,6 @@ async def ben(ctx):
             voice = await channel.disconnect()
           
         
+
 
 client.run(TOKEN)
